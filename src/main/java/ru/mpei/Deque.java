@@ -28,4 +28,5 @@ public interface Deque<E> {
     boolean contains(Object o);
     int size();
     Iterator<E> iterator();
+    Iterator<E> descendingIterator();
 }
